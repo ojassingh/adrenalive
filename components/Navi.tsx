@@ -27,7 +27,7 @@ const Navi = () => {
             <div className="flex">
                 <div className="flex-2">
                     <div className="flex gap-2">
-                        <h1 className="text-4xl font-bold text-blue-600">Chyrr</h1>
+                        <h1 className="text-5xl font-bold text-blue-600">Chyrr</h1>
                         <motion.div animate={{opacity: 0}} transition={{ease:"easeInOut" ,duration: 1, repeat:Infinity, repeatType:"mirror"}} className="pt-2 relative group my-auto">
                             <div className=" animate-tilt transition group-hover:duration-200 duration-500 group-hover:opacity-100 opacity-75 absolute rounded-lg -inset-0.5 bg-red-500 filter blur h-1 my-auto"></div>
                             <div className="bg-red-500 rounded-xl w-4 h-4 rounded-full my-auto"/>
@@ -35,7 +35,7 @@ const Navi = () => {
                         </motion.div>
                     </div>
                 </div>
-                <div className="flex-1"><PopoverNavi/></div>
+                <div className="flex-1 my-auto"><PopoverNavi/></div>
             </div>
         </div>
     </div>)
