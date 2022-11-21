@@ -45,8 +45,8 @@ const Upcoming: FC = () => {
         }
     ]
 
-    return(<div className="bg-dark text-white py-8 px-2">
-        <div id="content" className="px-7">
+    return(<div className="bg-dark text-white py-8 px-9">
+        <div id="content" className="">
             <h1 className="text-3xl font-semibold">Featured games</h1>
             <p className="pt-2 text-gray-200 text-sm">Check out our upcoming games, and register to watch it together!</p>
 
