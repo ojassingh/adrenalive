@@ -29,7 +29,7 @@ const Card: FC<any>= (props: any) => {
 	  <p className="leading-normal text-white font-bold">{(game.sport)}</p>
       <p className="leading-normal text-white font-medium">{(game.location)}</p>
       <p className="leading-normal text-white font-medium">{(game.date)}</p>
-      <button className="bg-blue-600 text-white rounded-xl px-2 py-2 mt-3">Sign up!</button>
+      <button className="bg-blue-600 text-white rounded-xl px-3 py-2 mt-3 font-medium">Sign up!</button>
 	</div>
   </div>
 

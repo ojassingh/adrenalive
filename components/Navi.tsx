@@ -23,7 +23,7 @@ const Navi = () => {
                 </ul>
             </div>
         </div>
-        <div className="xs:block sm:block md:block lg:hidden pt-4 pb-2 px-10">
+        <div className="xs:block sm:block md:block lg:hidden pt-4 pb-2 px-7">
             <div className="flex">
                 <div className="flex-2">
                     <div className="flex gap-2">
